@@ -83,6 +83,10 @@ html {
   font-size: 1.25rem;
 }
 
+.sidebar-about .lead{
+  word-wrap: break-word;
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
