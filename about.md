@@ -2,29 +2,15 @@
 layout: page
 title: About
 ---
+>  Stay Hungry, Stay Foolish
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Hey there! My name is *Dhanraj Padmashali*. I'm a Developer/Designer Hybrid. I've been making mobile applications and websites for over two years.  
+*As a Developer*, I specialize in Android and standards-based XHTML, CSS and Javascript web development. I've also briefly used PhoneGap to build cross platform Application.  
+*As a Designer*, I create wireframes for clean beautiful websites and applications with usability being the number one priority.
 
-There are currently two themes built on Poole:
+*Got an awesome idea? Let's make it happen*
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+  * You can shoot a mail to dhanraj@questlabs.xyz
+  * Get in touch on [Twitter](https://twitter.com/psygik)
+  * Or reach out on my profiles on the left.
