@@ -94,7 +94,13 @@ body{
   width: 200px;
   height: 200px;
   object-fit: cover;
-}
+  border-radius: 50%;
+  border: solid 1px #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+  }
 
 .sidebar-about .lead{
   font-size: 1rem;
@@ -112,7 +118,9 @@ body{
     cursor: pointer;
 }
 .sidebar .social-list i:hover{
-  color: #F5F5F5;
+  color: #F8F8F8;
+  padding-bottom: 5px;
+  border-bottom: solid 3px #fff;
 }
 
 .sidebar ul.social-list li{
@@ -134,6 +142,7 @@ body{
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  padding: 5px;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -141,6 +150,7 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+  border-left: solid 3px #fff;
 }
 
 /* Sticky sidebar
@@ -268,11 +278,11 @@ a.sidebar-nav-item:focus {
 
 /* Blue */
 .theme-base-0d .sidebar {
-  background-color: #16214d;
+  background-color: #1664AD;
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
-  color: #16214d;
+  color: #1664AD;
 }
 
 /* Magenta */
