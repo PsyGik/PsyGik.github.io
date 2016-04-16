@@ -46,7 +46,7 @@ html {
 }
 
 body{
-  background: rgb(226,227,226);
+  background: #d0d2d3;
 }
 
 
@@ -262,11 +262,11 @@ a.sidebar-nav-item:focus {
 
 /* Blue */
 .theme-base-0d .sidebar {
-  background-color: #6a9fb5;
+  background-color: #16214d;
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+  color: #16214d;
 }
 
 /* Magenta */
