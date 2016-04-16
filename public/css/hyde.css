@@ -59,17 +59,34 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
-@media (min-width: 48em) {
-  .sidebar {
+@media (min-width: 80em){
+.sidebar {
+    display: block;
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 320px;
-    text-align: left;
-  }
+    width: 20rem;
+    height: 100%;
+    display: table;
+}
+}
+@media (min-width: 64em){
+.sidebar {
+    display: block;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    display: table;
+}
 }
 
+@media (min-width: 48em){
+.sidebar {
+    display: block;
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    display: table;
+}
+}
 /* Sidebar links */
 .sidebar a {
   color: #fff;
