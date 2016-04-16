@@ -1,14 +1,16 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
+  <div class="container sidebar-sticky" layout="column">
+    <div class="sidebar-about" flex="60">
+      <img src="http://placehold.it/200x200"/>
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">Founder @ <a href="http://questlabs.xyz">QuestLabs,Inc.</a></p>
+      <p class="tags">Developer | Designer | Foodie</p>
     </div>
-
+    <span flex="30"></span>
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
@@ -25,11 +27,15 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
+<ul class="social-list">
+        <li><a href="https://www.facebook.com/psygik" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
+        <li><a href="https://www.github.com/psygik" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
+        <li><a href="https://in.linkedin.com/in/dhanrajpadmashali" target="_blank"><i class="zmdi zmdi-linkedin-box"></i></a></li>
+        <li><a href="https://www.twitter.com/psygik" target="_blank"><i class="zmdi zmdi-twitter"></i></a></li>
+        <li><a href="https://plus.google.com/u/0/+DhanrajPadmashali" target="_blank"><i class="zmdi zmdi-google-plus-box"></i></a></li>
+      </ul>
+                <!--<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>-->
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
