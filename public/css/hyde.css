@@ -46,7 +46,7 @@ html {
 }
 
 body{
-  background: #d0d2d3;
+  background: #fff;
 }
 
 
@@ -88,6 +88,12 @@ body{
   margin-top: 0;
   font-family: "Roboto", serif;
   font-size: 2.25rem;
+}
+
+.sidebar img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .sidebar-about .lead{
